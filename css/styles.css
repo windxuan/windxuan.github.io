@@ -411,6 +411,9 @@ background: none;
 padding:50px 0;
 background:#fff;
 }
+.text-center p:hover{
+    cursor: pointer;
+}
 /*这里是textlight*/
 .flashlight {
     position: relative;
@@ -499,6 +502,7 @@ margin: 0px;
 /*parlex*/
 .bg-parlex {
 padding-top: 0px;
+position: relative;
 background-image: url('../images/banner-bg.jpg');
 background-size: cover;
 background-repeat: no-repeat;
@@ -508,6 +512,10 @@ background-attachment: fixed;
 padding: 30px 0;
 background-color: rgba(0, 0, 0, 0.37);
 color: #FDFDFD !important;
+}
+.carousel-control span{
+    position: absolute;
+    top: 45%;
 }
 /*Skills*/
 .skilltitle {
@@ -523,6 +531,11 @@ background-color: #D6D6D6;
 }
 .progress .progress-bar {
 background-color: #CC4646;
+}
+.carousel-inner span{
+    display: block;
+    margin-top: 32px;
+    color: #fff;
 }
 /*Skills*/
 
@@ -642,8 +655,7 @@ display: inherit;
   font-size: 1.3em;
 }
 
-/* Services
-    -------------------------------------------------*/
+/*-------------------------------------------------*/
 .grid .text-content {
     padding-left: 35%;
 }
@@ -706,9 +718,6 @@ display: inherit;
 .team-member .contact a {
     padding: 0 8px;
 }
-
-
-
 
 
 .descrition {
