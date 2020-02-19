@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>love binbin~</title>
+		<link rel="stylesheet" href="css/particle.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<!--主要样式-->
+		<link rel="stylesheet" href="css/heartstyle.css" media="screen" type="text/css" />
+		<style>
+		body{
+			font-family:"Trebuchet MS";
+		}
+		.all{
+			width: 100%;
+			height: 100%;
+			background: #FF9999;
+			position: relative;
+		}
+		#particles-js{
+			z-index: 10;
+			position: absolute;
+			top: 0;
+		}
+		/*heart*/
+		.red_heart{
+			position:absolute;
+			top: 32%;
+			left: 50%;
+			width: 0px;
+			height: 0px;
+			border: 0px solid transparent;
+			transform: rotate(45deg);
+			display: inline-block;
+		}
+		.red_heart1{
+			position:absolute;
+			top:100px;
+			left:0px;
+			width:0px;
+			height:0px;
+			border:100px solid #FFBDBD;
+			border-radius:100px;
+			display:inline-block;
+		}
+		.red_heart2{
+			position:absolute;
+			top:100px;
+			left:100px;
+			width:0px;
+			height:0px;
+			border:100px solid #FFBDBD;
+			display:inline-block;
+		}
+		.red_heart3{
+			position:absolute;
+			top:0px;
+			left:100px;
+			width:0px;
+			height:0px;
+			border:100px solid #FFBDBD;
+			border-radius:100px;
+			display:inline-block;
+		}
+		/*myname*/
+		.div01{
+			width: 100px;
+			height: 100px;
+			background: transparent;
+			cursor: pointer;
+			z-index: 10;
+		}
+		.myname{
+			transform:rotate(0deg);
+			font-family: all;
+			position: absolute;
+			left: 10px;
+		}
+		.myname a{
+			cursor: pointer;
+			text-decoration: none;
+			color: #f00;
+			font-size: 22px;
+		}
+		.love{
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			top: 40%;
+			left: 43%;
+			cursor: pointer;
+			font-size: 45px;
+			z-index: 999;
+		}
+		.love a{
+			display: inline-block;
+			color: #f00;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="all">
+			<div id="particles-js"></div>
+			<span class="love">
+				<a href="index.html">刘斌彬</a>
+			</span>
+			<!-- heart -->
+			<div class="red_heart">
+				<div class="red_heart1"></div>
+				<div class="red_heart2"></div>
+				<div class="red_heart3"></div>
+			</div>
+			<!-- 3D heart -->
+			<div class='heart3d'>
+				<div class='rib1'></div>
+				<div class='rib2'></div>
+				<div class='rib3'></div>
+				<div class='rib4'></div>
+				<div class='rib5'></div>
+				<div class='rib6'></div>
+				<div class='rib7'></div>
+				<div class='rib8'></div>
+				<div class='rib9'></div>
+				<div class='rib10'></div>
+				<div class='rib11'></div>
+				<div class='rib12'></div>
+				<div class='rib13'></div>
+				<div class='rib14'></div>
+				<div class='rib15'></div>
+				<div class='rib16'></div>
+				<div class='rib17'></div>
+				<div class='rib18'></div>
+				<div class='rib19'></div>
+				<div class='rib20'></div>
+				<div class='rib21'></div>
+				<div class='rib22'></div>
+				<div class='rib23'></div>
+				<div class='rib24'></div>
+				<div class='rib25'></div>
+				<div class='rib26'></div>
+				<div class='rib27'></div>
+				<div class='rib28'></div>
+				<div class='rib29'></div>
+				<div class='rib30'></div>
+				<div class='rib31'></div>
+				<div class='rib32'></div>
+				<div class='rib33'></div>
+				<div class='rib34'></div>
+				<div class='rib35'></div>
+				<div class='rib36'></div>
+				<!-- name -->
+				<div class="div01">
+					<span class="myname">
+						<a>刘斌彬</a>
+					</span>
+				</div>
+			</div>
+			<!-- / end.3D heart -->
+		</div>
+		<!-- scripts -->
+		<script src="js/particles.min.js"></script>
+		<script src="js/star.js"></script>
+		<script>
+		</script>
+	</body>
+</html>
